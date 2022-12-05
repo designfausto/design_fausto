@@ -1,5 +1,5 @@
 var loader;
-document.body.style.overflow = "unset";
+
 
 function loadNow(opacity) {
     if (opacity <= 0) {
