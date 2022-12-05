@@ -1502,7 +1502,7 @@ header .navbar-links li:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #E9E9E9;
-    font-size: 20px;
+    font-size: 16px;
     pointer-events: none;
     z-index: 2;
     transition: .5s ease-in-out;
@@ -1522,7 +1522,7 @@ header .navbar-links li:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #E9E9E9;
-    font-size: 14px;
+    font-size: 12px;
     pointer-events: none;
     z-index: 2;
     transition: .5s ease-in-out;

@@ -44,8 +44,8 @@ window.onload = ()=> {
                 let selectImgUrl = gallery[newIndex].querySelector("img").src;
                 let selectImgName = gallery[newIndex].querySelector(".proj_name").textContent;
                 let selectImgDesc = gallery[newIndex].querySelector(".proj_desc").textContent;
-                previewImgName.textContent = selectImgName
-                previewImgDesc.textContent = selectImgDesc
+                previewImgName.textContent = selectImgName,
+                previewImgDesc.textContent = selectImgDesc,
                 previewImg.src = selectImgUrl;
             }
             const prevBtn = document.querySelector(".prev");
