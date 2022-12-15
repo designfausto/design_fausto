@@ -54,7 +54,7 @@ div .preload {
     overflow: visible;
     top: 0;
     left: 0;
-    background: #020202 url('images/pre_desktop_1.gif') no-repeat center center;
+    background: #020202 url("images/preload_gifs/preload_1024.gif") no-repeat center center;
 }
 
 @media screen and (max-width: 1024px) {
