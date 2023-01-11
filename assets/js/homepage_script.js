@@ -1,18 +1,3 @@
-var loader;
-
-
-function loadNow(opacity) {
-    if (opacity <= 0) {
-        displayContent();
-    } else {
-        loader.style.opacity = opacity;
-        window.setTimeout(function () {
-            loadNow(opacity - 0.05)
-
-        }, 250);
-    }
-}
-
 function displayContent() {
     loader.style.display = 'none';
     document.getElementById('content').style.display = 'block';
