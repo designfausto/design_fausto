@@ -1,43 +1,4 @@
-function displayContent() {
-    loader.style.display = 'none';
-    document.getElementById('content').style.display = 'block';
-}
 
-document.addEventListener("DOMContentLoaded", function () {
-    loader = document.getElementById('loader');
-    loadNow(1);
-});
-
-const design = document.querySelector(".desi"),
-designImg = document.querySelector(".desi-img");
-const motion = document.querySelector(".moti"),
-motionImg = document.querySelector(".moti-img");
-const uiux = document.querySelector(".uiux"),
-uiuxImg = document.querySelector(".uiux-img");
-
-design.addEventListener("mouseover", () => {
-    designImg.style.display = "block";
-});
-
-design.addEventListener("mouseleave", () => {
-    designImg.style.display = "";
-});
-
-motion.addEventListener("mouseover", () => {
-    motionImg.style.display = "block";
-});
-
-motion.addEventListener("mouseleave", () => {
-    motionImg.style.display = "";
-});
-
-uiux.addEventListener("mouseover", () => {
-    uiuxImg.style.display = "block";
-});
-
-uiux.addEventListener("mouseleave", () => {
-    uiuxImg.style.display = "";
-});
 
 // script for about
 var t1 = new TimelineMax({
