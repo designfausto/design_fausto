@@ -55,19 +55,21 @@ header .brand-title {
 
 header .navbar-links{
     align-items: center;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    right: 25%;
+    left: 33%;
 }
 
 header .navbar-links ul {
-    align-items: center;
+
     display: flex;
     margin-top: .5rem;
 }
 
 header .navbar-links li {
     font-size: 20px;
-    padding: 10px 250px 10px 0px;
+    padding: 10px 125px 10px 125px;
     list-style: none;
     transition: .3s ease-in-out;
 

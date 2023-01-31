@@ -258,11 +258,15 @@ header .navbar-links li:hover {
 }
 
 .start-data li:hover{
-    letter-spacing: 4px;
+
     color: #164a86;
 }
 
 
 .start-data li a:hover{
     color: #164a86;
+    align-content: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: -2rem;
 }
