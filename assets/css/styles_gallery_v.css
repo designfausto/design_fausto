@@ -43,8 +43,7 @@ body::-webkit-scrollbar {
 
 .about-btn:hover {
     color: #c2c717;
-    transform: rotate(-135deg);
-
+    transform: scale(1.25);
 }
 
 .menu {
@@ -194,6 +193,7 @@ body::-webkit-scrollbar {
 
 
 .list ul li{
+    color: #E9E9E9;
     font-size: 20px;
     list-style: none;
     padding: 14px;
@@ -218,11 +218,17 @@ body::-webkit-scrollbar {
     transition: .2s ease-in-out;
 }
 
+
+.list ul li a.active{
+    color: #c2c717;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
 .list ul li a:hover{
     color: #c2c717;
     text-decoration: none;
 }
-
 
 .rights{
     display: flex;
@@ -312,8 +318,8 @@ body::-webkit-scrollbar {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #E9E9E9;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 500;
     letter-spacing: 1px;
     pointer-events: none;
     z-index: 2;
