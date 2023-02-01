@@ -26,17 +26,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-@media screen and (max-width:400px) {
-    html{
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-    body {
-        padding: 0;
-        margin: 0;
-    }
-}
 
 .about-btn {
     position: fixed;
@@ -54,7 +43,6 @@ body::-webkit-scrollbar {
 .about-btn:hover {
     color: #c2c717;
     transform: scale(1.25);
-
 }
 
 .menu {
@@ -192,50 +180,14 @@ body::-webkit-scrollbar {
 }
 
 
-@media only screen and (min-width: 425px){
-    
-.title{
-    position: absolute;
-    top: 5%;
-    left: 72.5%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    width: 100%;
-}
-
-.title h1{
-    color: #E9E9E9;
-    font-weight: 500; 
-    font-size: 30px;   
-    transition: .2s ease-in-out;
-    font-style: italic;
-    text-align: center;
-}
-
-.title h1:hover{
-    color: #c2c717;
-}
-
-
-.title h1 a{
-    color: #E9E9E9;
-    text-decoration: none;
-    transition: .2s ease-in-out;
-}
-
-.title h1 a:hover{
-    color: #c2c717;
-    text-decoration: none;
-}
-}
-
 .list{
     display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #E9E9E9;
+    margin-top: 14%;
+    margin-left: 3%;
 }
 
 
@@ -246,8 +198,16 @@ body::-webkit-scrollbar {
     padding: 14px;
     transition: .2s ease-in-out;
     letter-spacing: .5px;
-    text-align: center;
+}
 
+.list ul li.active{
+    color: #c2c717;
+    transform: translateX(10%);
+    list-style: square;
+}
+
+.list ul li:hover{
+    transform: translateX(10%);
 }
 
 
@@ -269,14 +229,13 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
-
 .rights{
     display: flex;
-    position: absolute;
-    bottom: 5%;
-    left: 15%;
-    margin: 0;
-    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 3%;
+    margin-bottom: 1%;
 }
 
 .rights p{
@@ -284,8 +243,8 @@ body::-webkit-scrollbar {
     font-size: 10px;
     font-weight: 200;
     letter-spacing: 1px;
-    text-align: center;
 }
+
 /* Image gallery */
 
 
