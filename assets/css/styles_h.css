@@ -326,7 +326,7 @@ body::-webkit-scrollbar {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #E9E9E9;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 500;
     letter-spacing: 1px;
     pointer-events: none;
