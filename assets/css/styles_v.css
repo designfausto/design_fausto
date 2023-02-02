@@ -59,6 +59,10 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
+.return{
+    display: none;
+  
+}
 
 .list{
     display: flex;
