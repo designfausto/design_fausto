@@ -413,10 +413,45 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
-
-.list{
+.return{
     display: flex;
     position: fixed;
+    top: 8%;
+    left: 0;
+    width: 50%;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+.return h1{
+    color: #c2c717;
+    font-weight: 500; 
+    font-size: 18px;   
+    transition: .2s ease-in-out;
+
+}
+
+.return h1:hover{
+    transform: scale(1.1);
+}
+
+
+.return h1 a{
+    color: #c2c717;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
+.return h1 a:hover{
+    text-decoration: none;
+}
+
+
+.list{
+    display: none;
+    position: none;
     top: 10%;
     left: 0;
     width: 50%;
@@ -443,12 +478,12 @@ body::-webkit-scrollbar {
 
 .list ul li.active{
     color: #c2c717;
-    transform: scale(1.1);
+    transform: translateX(10%);
     list-style: square;
 }
 
 .list ul li:hover{
-    transform: scale(1.1);
+    transform: translateX(10%);
 }
 
 
@@ -478,7 +513,7 @@ body::-webkit-scrollbar {
     width: 50%;
     justify-content: center;
     margin-left: 0;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
 }
 
 .rights p{
@@ -628,16 +663,16 @@ body::-webkit-scrollbar {
 
 
 .container {
-    width: 80%;
-    margin-left: 20%;
+    width: 100%;
+    top: 0;
+    margin: 12rem 0 5rem 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     /* this is what controls how many columns there are*/
-    grid-auto-rows: 400px;
+    grid-auto-rows: 240px;
     grid-gap: 5px;
     grid-auto-flow: row;
- 
-
+    z-index: 2;
 }
 
 .gallery-item {
@@ -697,7 +732,7 @@ body::-webkit-scrollbar {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #E9E9E9;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
     pointer-events: none;
