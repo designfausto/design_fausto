@@ -259,9 +259,9 @@ body::-webkit-scrollbar {
     width: 80%;
     margin-left: 20%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* this is what controls how many columns there are*/
-    grid-auto-rows: 400px;
+    grid-auto-rows: 520px;
     grid-gap: 5px;
     grid-auto-flow: row;
  
