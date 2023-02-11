@@ -463,7 +463,8 @@ body::-webkit-scrollbar {
 
 
 .list{
-    display: flex;
+    display: none;
+
     position: fixed;
     top: 15%;
     left: 0;
