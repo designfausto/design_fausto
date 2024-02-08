@@ -39,11 +39,11 @@ body::-webkit-scrollbar {
     font-weight: 500; 
     font-size: 30px;   
     transition: .2s ease-in-out;
-    font-style: italic;
+    font-style: bold;
 }
 
 .title h1:hover{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     transform: translateX(5%);
 }
 
@@ -55,7 +55,7 @@ body::-webkit-scrollbar {
 }
 
 .title h1 a:hover{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     text-decoration: none;
 }
 
@@ -63,10 +63,9 @@ body::-webkit-scrollbar {
 .list{
     display: flex;
     position: fixed;
-    top: 0;
+    top: 20%;
     left: 0;
     color: #E9E9E9;
-    margin-top: 14%;
     margin-left: 3%;
 }
 
@@ -81,7 +80,7 @@ body::-webkit-scrollbar {
 }
 
 .list ul li.active{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     transform: translateX(10%);
     list-style: square;
 }
@@ -99,15 +98,16 @@ body::-webkit-scrollbar {
 
 
 .list ul li a.active{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     text-decoration: none;
     transition: .2s ease-in-out;
 }
 
 .list ul li a:hover{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     text-decoration: none;
 }
+
 
 .rights{
     display: flex;
@@ -125,33 +125,6 @@ body::-webkit-scrollbar {
     letter-spacing: 1px;
 }
 
-
-
-.about-btn {
-    position: fixed;
-    margin-right: 3rem;
-    margin-top: 2rem;
-    font-size: 25px;
-    right: 0;
-    z-index: 7;
-    color: #E9E9E9;
-    cursor: pointer;
-    transition: .3s ease-in-out;
-}
-
-
-.about-btn:hover {
-    color: #c2c717;
-    transform: scale(1.25);
-}
-
-.about-btn a{
-    color: #E9E9E9;
-}
-
-.about-btn a:hover{
-    color: #c2c717;
-}
 
 
 .menu {
@@ -209,7 +182,7 @@ body::-webkit-scrollbar {
 }
 
 .data h3 a:hover {
-    color: #c2c717;
+    color: rgb(255, 230, 0);
 }
 
 .data h4 {
@@ -406,7 +379,7 @@ body::-webkit-scrollbar {
 }
 
 .title h1:hover{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     transform: scale(1.1);
 }
 
@@ -418,7 +391,7 @@ body::-webkit-scrollbar {
 }
 
 .title h1 a:hover{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     text-decoration: none;
 }
 
@@ -452,7 +425,7 @@ body::-webkit-scrollbar {
 }
 
 .list ul li.active{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     transform: scale(1.1);
     list-style: square;
 }
@@ -470,13 +443,13 @@ body::-webkit-scrollbar {
 
 
 .list ul li a.active{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     text-decoration: none;
     transition: .2s ease-in-out;
 }
 
 .list ul li a:hover{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     text-decoration: none;
 }
 
@@ -514,7 +487,7 @@ body::-webkit-scrollbar {
 
 
 .about-btn:hover {
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     transform: scale(1.25);
 }
 
