@@ -36,14 +36,14 @@ body::-webkit-scrollbar {
 
 .title h1{
     color: #E9E9E9;
-    font-weight: 500; 
-    font-size: 30px;   
+    font-weight: 700; 
+    font-size: 38px;   
     transition: .2s ease-in-out;
-    font-style: italic;
+    font-style: bold;
 }
 
 .title h1:hover{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     transform: translateX(5%);
 }
 
@@ -55,18 +55,22 @@ body::-webkit-scrollbar {
 }
 
 .title h1 a:hover{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     text-decoration: none;
+}
+
+.return{
+    display: none;
+  
 }
 
 
 .list{
     display: flex;
     position: fixed;
-    top: 0;
+    top: 20%;
     left: 0;
     color: #E9E9E9;
-    margin-top: 14%;
     margin-left: 3%;
 }
 
@@ -81,13 +85,16 @@ body::-webkit-scrollbar {
 }
 
 .list ul li.active{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
+
     transform: translateX(10%);
     list-style: square;
 }
 
 .list ul li:hover{
     transform: translateX(10%);
+    list-style: square;
+    font-weight: 700;
 }
 
 
@@ -99,14 +106,16 @@ body::-webkit-scrollbar {
 
 
 .list ul li a.active{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     text-decoration: none;
     transition: .2s ease-in-out;
+    list-style: square;
 }
 
 .list ul li a:hover{
-    color: #c2c717;
+    color: rgb(255, 230, 0);
     text-decoration: none;
+    list-style: square;
 }
 
 .rights{
@@ -125,42 +134,14 @@ body::-webkit-scrollbar {
     letter-spacing: 1px;
 }
 
-
-
-.about-btn {
-    position: fixed;
-    margin-right: 3rem;
-    margin-top: 2rem;
-    font-size: 25px;
-    right: 0;
-    z-index: 7;
-    color: #E9E9E9;
-    cursor: pointer;
-    transition: .3s ease-in-out;
-}
-
-
-.about-btn:hover {
-    color: #c2c717;
-    transform: scale(1.25);
-}
-
-.about-btn a{
-    color: #E9E9E9;
-}
-
-.about-btn a:hover{
-    color: #c2c717;
-}
-
 .menu {
-    z-index: 0;
+    z-index: -1;
     top: 0;
-    left: 0;
+    left: 0%;
     width: 100%;
     height: 100%;
     position: absolute;
-    background: url(images/about_image_portfolio.png) no-repeat 50% 50%;
+    background: url(images/about_image_portfolio.jpg) no-repeat 50% 50%;
     background-color: #020202;
 
 }
@@ -168,25 +149,25 @@ body::-webkit-scrollbar {
 
 
 .data {
-    margin: 0;
+    margin: 10% 0 0 20%;
     color: #E9E9E9;
-    text-align: left;
+
 }
 
 
 .data .logo {
-    margin: 3rem 0 3rem 10.813rem;
+    margin: 3rem 0 3rem 10;
     top: 10%;
 }
 
 .data h1 {
-    margin: 12% 0 3rem 10.813rem;
-    top: 20%;
-    font: 600;
+    margin: 12% 0 2% 0;
+    font-weight: 900;
+    color: #ffe600;
 }
 
 .data h3 {
-    margin: 1.5rem 0 1.5rem 10.813rem;
+    margin: 1.5% 0 1.5rem 0;
     font-size: 16px;
     font-weight: 600;
     transition: .2s ease-out;
@@ -208,50 +189,48 @@ body::-webkit-scrollbar {
 }
 
 .data h3 a:hover {
-    color: #c2c717;
+    color: #ffe600;
 }
 
 .data h4 {
-    margin: 3rem 0 1.5rem 10.813rem;
+    margin: 3rem 0 1.5rem 0;
     font-size: 16px;
     font-weight: 400;
 }
 
 .data p {
     font-size: 16px;
-    text-align: left;
-    padding: 0 3.75rem 0 0;
-    margin: 0 0 0 10.813rem;
-    width: 50%;
+    text-align: justify;
+    width: 42%;
 }
 
 
 
 .data .social-links {
-    margin: 2rem 0 0 10.813rem;
+    margin: 13% 0 0 0;
 }
 
 .data .social-links a {
     display: inline-block;
     height: 60px;
-    width: 60px;
+    width: 156px;
     background-color: transparent;
     font-size: 20px;
     text-align: center;
     line-height: 60px;
-    border-radius: 50%;
+    border-radius: 12px;
     border-style: solid;
     border-width: 1px;
-    border-color: #E9E9E9;
-    color: #E9E9E9;
+    border-color: #020202;
+    color: #ffe600;
     transition: all 0.5s ease-in-out;
-    margin: 0 16px 0 0;
+    margin: 02% 0 0;
 
 }
 
 .data .social-links a:hover {
-    color: #24262b;
-    background-color: #E9E9E9;
+    color: #020202;
+    background-color: #ffe600;
 }
 
 
@@ -296,7 +275,7 @@ body::-webkit-scrollbar {
 }
 
 .title h1:hover{
-    color: #c2c717;
+    color: #ffe600;
     transform: scale(1.1);
 }
 
@@ -308,7 +287,7 @@ body::-webkit-scrollbar {
 }
 
 .title h1 a:hover{
-    color: #c2c717;
+    color: #ffe600;
     text-decoration: none;
 }
 
@@ -341,7 +320,7 @@ body::-webkit-scrollbar {
 }
 
 .list ul li.active{
-    color: #c2c717;
+    color: #ffe600;
     transform: scale(1.1);
     list-style: square;
 }
@@ -359,13 +338,13 @@ body::-webkit-scrollbar {
 
 
 .list ul li a.active{
-    color: #c2c717;
+    color: #ffe600;
     text-decoration: none;
     transition: .2s ease-in-out;
 }
 
 .list ul li a:hover{
-    color: #c2c717;
+    color: #ffe600;
     text-decoration: none;
 }
 
@@ -404,7 +383,7 @@ body::-webkit-scrollbar {
 
 
 .about-btn:hover {
-    color: #c2c717;
+    color: #ffe600;
     transform: scale(1.25);
 }
 
@@ -413,7 +392,7 @@ body::-webkit-scrollbar {
 }
 
 .about-btn a:hover{
-    color: #c2c717;
+    color: #ffe600;
 }
 
 
@@ -488,7 +467,7 @@ body::-webkit-scrollbar {
 }
 
 .data h3 a:hover {
-    color: #c2c717;
+    color: #ffe600;
 }
 
 .data h4 {

@@ -36,11 +36,12 @@ body::-webkit-scrollbar {
 
 .title h1{
     color: #E9E9E9;
-    font-weight: 500; 
-    font-size: 30px;   
+    font-weight: 700; 
+    font-size: 38px;   
     transition: .2s ease-in-out;
     font-style: bold;
 }
+
 
 .title h1:hover{
     color: rgb(255, 230, 0);
@@ -65,6 +66,7 @@ body::-webkit-scrollbar {
 }
 
 
+
 .list{
     display: flex;
     position: fixed;
@@ -86,12 +88,15 @@ body::-webkit-scrollbar {
 
 .list ul li.active{
     color: rgb(255, 230, 0);
+
     transform: translateX(10%);
     list-style: square;
 }
 
 .list ul li:hover{
     transform: translateX(10%);
+    list-style: square;
+    font-weight: 700;
 }
 
 
@@ -106,13 +111,14 @@ body::-webkit-scrollbar {
     color: rgb(255, 230, 0);
     text-decoration: none;
     transition: .2s ease-in-out;
+    list-style: square;
 }
 
 .list ul li a:hover{
     color: rgb(255, 230, 0);
     text-decoration: none;
+    list-style: square;
 }
-
 .rights{
     display: flex;
     position: fixed;
@@ -166,9 +172,9 @@ body::-webkit-scrollbar {
     width: 80%;
     margin-left: 20%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* this is what controls how many columns there are*/
-    grid-auto-rows: 750px;
+    grid-auto-rows: 1050px;
     grid-gap: 5px;
     grid-auto-flow: row;
  

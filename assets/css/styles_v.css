@@ -36,11 +36,12 @@ body::-webkit-scrollbar {
 
 .title h1{
     color: #E9E9E9;
-    font-weight: 500; 
-    font-size: 30px;   
+    font-weight: 700; 
+    font-size: 38px;   
     transition: .2s ease-in-out;
-    font-style: italic;
+    font-style: bold;
 }
+
 
 .title h1:hover{
     color: rgb(255, 230, 0);
@@ -64,13 +65,13 @@ body::-webkit-scrollbar {
   
 }
 
+
 .list{
     display: flex;
     position: fixed;
-    top: 0;
+    top: 20%;
     left: 0;
     color: #E9E9E9;
-    margin-top: 14%;
     margin-left: 3%;
 }
 
@@ -86,12 +87,15 @@ body::-webkit-scrollbar {
 
 .list ul li.active{
     color: rgb(255, 230, 0);
+
     transform: translateX(10%);
     list-style: square;
 }
 
 .list ul li:hover{
     transform: translateX(10%);
+    list-style: square;
+    font-weight: 700;
 }
 
 
@@ -106,11 +110,13 @@ body::-webkit-scrollbar {
     color: rgb(255, 230, 0);
     text-decoration: none;
     transition: .2s ease-in-out;
+    list-style: square;
 }
 
 .list ul li a:hover{
     color: rgb(255, 230, 0);
     text-decoration: none;
+    list-style: square;
 }
 
 .rights{
