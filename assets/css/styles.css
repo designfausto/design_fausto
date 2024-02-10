@@ -372,7 +372,7 @@ body::-webkit-scrollbar {
 .list{
   display: flex;
   position: fixed;
-  top: 10%;
+  top: 12.5%;
   left: 24%;
   color: #E9E9E9;
   margin-left: 3%;
