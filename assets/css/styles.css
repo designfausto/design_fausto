@@ -364,18 +364,24 @@ body::-webkit-scrollbar {
 .title{
   display: flex;
   position: fixed;
-  left: 32%;
+  width: 100%;
+  justify-content: center;
   margin-top: 8.5%;
   margin-left: 0;
+}
+
+.title h1{
+    text-align: center;
 }
 
 .list{
   display: flex;
   position: fixed;
-  top: 12.5%;
-  left: 24%;
+  width: 100%;
+  top: 15%;
+  justify-content: center;
   color: #E9E9E9;
-  margin-left: 3%;
+  margin-left: 0%;
 }
 
 .list ul{
@@ -389,6 +395,7 @@ body::-webkit-scrollbar {
     list-style: none;
     padding: 8px;
     transition: .2s ease-in-out;
+    text-align: center;
     letter-spacing: .5px;
 }
 

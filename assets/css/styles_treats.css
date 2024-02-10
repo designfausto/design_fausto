@@ -288,38 +288,61 @@ body::-webkit-scrollbar {
     }
     
     
-    .title-mobile{
-        display: flex;
-        position: absolute;
-        left: 36%;
-        margin-top: 5%;
-        margin-left: 0;
-      }
-      
-      
-      .title-mobile h1:hover{
-          color: rgb(255, 230, 0);
-          transform: translateX(5%);
-      }
-      
-      
-      .title-mobile h1 a{
-          color: rgb(255, 230, 0);
-          text-decoration: none;
-          transition: .2s ease-in-out;
-      }
-      
-      .title-mobile h1 a:hover{
-          color: rgb(255, 230, 0);
-          text-decoration: none;
-      }
-      
-      
-      .title-mobile h1{
-          font-weight: 500;
-          font-size: 26px;
-          color: rgb(255, 230, 0);
-      }
+
+.title-mobile{
+    display: block;
+    position: sticky;
+    bottom: 0;
+    padding: 0;
+    margin-left: 0;
+    height: auto;
+    width: 100%;
+    z-index: 0;
+    background-color: #020202;
+  }
+
+  .title-mobile h1{
+    font-weight: 500;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(255, 230, 0);
+}
+
+.title-mobile a{
+    display: inline-block;
+    height: 60px;
+    width: 156px;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #020202;
+    color: #ffe600;
+    transition: all 0.5s ease-in-out;
+    margin: 02% 0 0;
+    
+}
+
+  .title-mobile h1:hover{
+      color: rgb(255, 230, 0);
+      transform: translateX(0%);
+  }
+  
+  
+  .title-mobile h1 a{
+      color: rgb(255, 230, 0);
+      text-decoration: none;
+      transition: .2s ease-in-out;
+  }
+  
+  .title-mobile h1 a:hover{
+      color: rgb(255, 230, 0);
+      text-decoration: none;
+  }
+    
       
     
     .list{
@@ -386,6 +409,19 @@ body::-webkit-scrollbar {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         /* this is what controls how many columns there are*/
+        grid-auto-rows: 160px;
+        grid-gap: 5px;
+        grid-auto-flow: row;
+     
+    
+    }
+    
+    .container-bigger {
+        width: 100%;
+        margin-left: 0%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* this is what controls how many columns there are*/
         grid-auto-rows: 200px;
         grid-gap: 5px;
         grid-auto-flow: row;
@@ -393,16 +429,16 @@ body::-webkit-scrollbar {
     
     }
     
-    
-    .container-name{
-        display: block;
-        padding-top: 18%;
-        margin-top: 2%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 5%;
-    }
-    
+   
+
+.container-name{
+    display: block;
+    padding-top: 0;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
     
     .container-name h1{
         color: white;
