@@ -394,10 +394,14 @@ body::-webkit-scrollbar {
 
 .list ul li.active{
     color: rgb(255, 230, 0);
+    transform: translateX(0%);
+    list-style: none;
 }
 
 .list ul li:hover{
     font-weight: 700;
+    transform: translateX(0%);
+    list-style: none;
 }
 
 
