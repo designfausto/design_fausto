@@ -341,7 +341,7 @@ body::-webkit-scrollbar {
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 480px){
     
 html{
     max-width: 100%;
@@ -362,61 +362,26 @@ body::-webkit-scrollbar {
 }
 
 .title{
-    display: flex;
-    position: fixed;
-    top: 4%;
-    left: 0;
-    width: 100%;
-    justify-content: center;
-    margin-top: 0;
-    margin-left: 0;
+  display: flex;
+  position: fixed;
+  left: 32%;
+  margin-top: 8.5%;
+  margin-left: 0;
 }
-
-.title h1{
-    color: #E9E9E9;
-    font-weight: 500; 
-    font-size: 30px;   
-    transition: .2s ease-in-out;
-    font-style: italic;
-
-}
-
-.title h1:hover{
-    color: rgb(255, 230, 0);
-    transform: scale(1.1);
-}
-
-
-.title h1 a{
-    color: #E9E9E9;
-    text-decoration: none;
-    transition: .2s ease-in-out;
-}
-
-.title h1 a:hover{
-    color: rgb(255, 230, 0);
-    text-decoration: none;
-}
-
 
 .list{
-    display: flex;
-    position: fixed;
-    top: 15%;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    color: #E9E9E9;
-    justify-content: center;
-    margin-top: 0;
-    margin-left: 0;
-
+  display: flex;
+  position: fixed;
+  top: 16%;
+  left: 24%;
+  color: #E9E9E9;
+  margin-left: 3%;
 }
 
 .list ul{
-    margin: 3rem 4rem;
-    text-align: center;
+  text-align: center;
 }
+
 
 .list ul li{
     color: #E9E9E9;
@@ -429,12 +394,10 @@ body::-webkit-scrollbar {
 
 .list ul li.active{
     color: rgb(255, 230, 0);
-    transform: scale(1.1);
-    list-style: square;
 }
 
 .list ul li:hover{
-    transform: scale(1.1);
+    font-weight: 700;
 }
 
 
@@ -449,6 +412,7 @@ body::-webkit-scrollbar {
     color: rgb(255, 230, 0);
     text-decoration: none;
     transition: .2s ease-in-out;
+    list-style: square;
 }
 
 .list ul li a:hover{
@@ -457,42 +421,12 @@ body::-webkit-scrollbar {
 }
 
 .rights{
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    justify-content: center;
-    margin-left: 0;
-    margin-bottom: 0;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 12.5%;
+  margin-bottom: 1%;
 }
-
-.rights p{
-    color: #e9e9e97c;
-    font-size: 10px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-.about-btn {
-    position: fixed;
-    top: 3%;
-    right: 8%;
-    margin-right: 0;
-    margin-top: 0;
-    font-size: 24px;
-    z-index: 7;
-    color: #E9E9E9;
-    cursor: pointer;
-    transition: .3s ease-in-out;
-}
-
-
-.about-btn:hover {
-    color: rgb(255, 230, 0);
-    transform: scale(1.25);
-}
-
 
 }

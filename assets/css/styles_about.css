@@ -292,6 +292,40 @@ body::-webkit-scrollbar {
 }
 
 
+.title-mobile{
+    z-index: 5;
+    display: flex;
+    position: absolute;
+    left: 36%;
+    margin-top: 190%;
+    margin-left: 0;
+  }
+  
+  
+  .title-mobile h1:hover{
+      color: rgb(255, 230, 0);
+      transform: translateX(5%);
+  }
+  
+  
+  .title-mobile h1 a{
+      color: rgb(255, 230, 0);
+      text-decoration: none;
+      transition: .2s ease-in-out;
+  }
+  
+  .title-mobile h1 a:hover{
+      color: rgb(255, 230, 0);
+      text-decoration: none;
+  }
+  
+  
+  .title-mobile h1{
+      font-weight: 500;
+      font-size: 26px;
+      color: rgb(255, 230, 0);
+  }
+
 .list{
     display: flex;
     position: fixed;
@@ -489,26 +523,27 @@ body::-webkit-scrollbar {
 }
 
 .data .social-links a {
+    display: inline-block;
     height: 60px;
-    width: 60px;
+    width: 156px;
     background-color: transparent;
     font-size: 20px;
     text-align: center;
     line-height: 60px;
-    border-radius: 50%;
+    border-radius: 12px;
     border-style: solid;
-    border-width: 1px;
-    border-color: #E9E9E9;
-    color: #E9E9E9;
+    border-width: 0px;
+    border-color: #020202;
+    color: #ffe600;
     transition: all 0.5s ease-in-out;
-    margin: 0;
+    margin: 02% 0 0;
+
 }
 
 .data .social-links a:hover {
-    color: #24262b;
-    background-color: #E9E9E9;
+    color: #020202;
+    background-color: #ffe600;
 }
-
 
 
 }
