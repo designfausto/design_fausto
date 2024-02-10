@@ -298,9 +298,8 @@ body::-webkit-scrollbar {
     position: absolute;
     left: 36%;
     bottom: 0;
-    margin-bottom: 15%;
-    margin-top: 0%;
-    margin-left: 0;
+    padding: 0;
+    margin: 0 0 15% 0;
   }
   
   
