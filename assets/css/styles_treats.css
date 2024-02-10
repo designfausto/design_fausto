@@ -60,11 +60,9 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
-.return{
+.title-mobile{
     display: none;
-  
 }
-
 
 
 .list{
@@ -180,6 +178,17 @@ body::-webkit-scrollbar {
     grid-auto-flow: row;
  
 
+}
+
+.container-bigger{
+    width: 80%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* this is what controls how many columns there are*/
+    grid-auto-rows: 350px;
+    grid-gap: 5px;
+    grid-auto-flow: row;
 }
 
 .gallery-item {
