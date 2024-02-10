@@ -295,7 +295,7 @@ body::-webkit-scrollbar {
 .title-mobile{
     z-index: 5;
     display: flex;
-    position: absolute;
+    position: fixed;
     left: 36%;
     bottom: 0;
     padding: 0;
@@ -305,7 +305,7 @@ body::-webkit-scrollbar {
   
   .title-mobile h1:hover{
       color: 020202;
-      transform: translateX(5%);
+      transform: translateX(0%);
   }
   
   

@@ -288,7 +288,7 @@ body::-webkit-scrollbar {
     
 .title-mobile{
     display: block;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     padding: 0;
     margin-left: 0;
