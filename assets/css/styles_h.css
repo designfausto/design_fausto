@@ -70,7 +70,6 @@ body::-webkit-scrollbar {
     position: fixed;
     top: 20%;
     left: 0;
-    color: #E9E9E9;
     margin-left: 3%;
 }
 
@@ -82,14 +81,9 @@ body::-webkit-scrollbar {
     padding: 14px;
     transition: .2s ease-in-out;
     letter-spacing: .5px;
+    list-style: none;
 }
 
-.list ul li.active{
-    color: rgb(255, 230, 0);
-
-    transform: translateX(10%);
-    list-style: square;
-}
 
 .list ul li:hover{
     transform: translateX(10%);
@@ -104,12 +98,29 @@ body::-webkit-scrollbar {
     transition: .2s ease-in-out;
 }
 
+.list ul li.active{
+    color: #ffe600;
+    font-size: 20px;
+    list-style: square;
+    font-weight: 700;
+    padding: 14px;
+    transition: .2s ease-in-out;
+    letter-spacing: .5px;
+    transition: .2s ease-in-out;
+    transform: translateX(10%);
+}
+
 
 .list ul li a.active{
-    color: rgb(255, 230, 0);
-    text-decoration: none;
-    transition: .2s ease-in-out;
+    color: #ffe600;
+    font-size: 20px;
     list-style: square;
+    font-weight: 700;
+    padding: 14px;
+    transition: .2s ease-in-out;
+    letter-spacing: .5px;
+    transition: .2s ease-in-out;
+    transform: translateX(10%);
 }
 
 .list ul li a:hover{
@@ -117,6 +128,13 @@ body::-webkit-scrollbar {
     text-decoration: none;
     list-style: square;
 }
+
+.list ul li a.active:hover{
+    color: rgb(255, 230, 0);
+    text-decoration: none;
+    list-style: square;
+}
+
 .rights{
     display: flex;
     position: fixed;
@@ -231,7 +249,7 @@ body::-webkit-scrollbar {
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 1100px){
 
        
 html{
@@ -412,6 +430,9 @@ body::-webkit-scrollbar {
 
 }
 
+.final-item {
+    padding-bottom: 5rem; 
+   }
 
 .container-name{
     display: block;
@@ -440,7 +461,7 @@ body::-webkit-scrollbar {
     color: rgba(255, 255, 255, 0.596);
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    text-align: justify;
 }
 
 .gallery-item {
