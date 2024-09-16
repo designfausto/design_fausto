@@ -15,7 +15,7 @@ html{
 
 body {
     padding: 0;
-    background-color: #020202;
+    background-color: #f3f3f3;
     font-size: 100%;
     margin: 0;
     top: 0;
@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
 }
 
 .title h1{
-    color: #ffe600;
+    color: #1e1e1e;
     font-weight: 700; 
     font-size: 38px;   
     transition: .2s ease-in-out;
@@ -44,13 +44,13 @@ body::-webkit-scrollbar {
 
 
 .title h1:hover{
-    color: rgb(255, 230, 0);
+    color:#1e1e1e;
 
 }
 
 
 .title h1 a{
-    color: #ffe600;
+    color: #1e1e1e;
     text-decoration: none;
     transition: .2s ease-in-out;
 }
@@ -63,13 +63,13 @@ body::-webkit-scrollbar {
     position: fixed;
     top: 20%;
     left: 0;
-    color: #E9E9E9;
+    color: #1e1e1e;
     margin-left: 3%;
 }
 
 
 .list ul li{
-    color: #E9E9E9;
+    color: #1e1e1e;
     font-size: 20px;
     list-style: none;
     padding: 14px;
@@ -78,7 +78,7 @@ body::-webkit-scrollbar {
 }
 
 .list ul li.active{
-    color: rgb(255, 230, 0);
+    color:#946640;
 
     transform: translateX(10%);
     list-style: square;
@@ -92,21 +92,21 @@ body::-webkit-scrollbar {
 
 
 .list ul li a{
-    color: #E9E9E9;
+    color: #1e1e1e;
     text-decoration: none;
     transition: .2s ease-in-out;
 }
 
 
 .list ul li a.active{
-    color: rgb(255, 230, 0);
+    color:#1e1e1e;
     text-decoration: none;
     transition: .2s ease-in-out;
     list-style: square;
 }
 
 .list ul li a:hover{
-    color: rgb(255, 230, 0);
+    color:#946640;
     text-decoration: none;
     list-style: square;
 }
@@ -185,7 +185,7 @@ body::-webkit-scrollbar {
 }
 
 .data h3 a:hover {
-    color: rgb(255, 230, 0);
+    color:#1e1e1e;
 }
 
 .data h4 {
@@ -350,7 +350,7 @@ html{
 
 body {
     padding: 0;
-    background-color: #020202;
+    background-color: #f3f3f3;
     font-size: 100%;
     margin: 0;
     top: 0;
@@ -380,7 +380,7 @@ body::-webkit-scrollbar {
   width: 100%;
   top: 15%;
   justify-content: center;
-  color: #E9E9E9;
+  color: #1e1e1e;
   margin-left: 0%;
 }
 
@@ -390,7 +390,7 @@ body::-webkit-scrollbar {
 
 
 .list ul li{
-    color: #E9E9E9;
+    color: #1e1e1e;
     font-size: 20px;
     list-style: none;
     padding: 8px;
@@ -400,7 +400,7 @@ body::-webkit-scrollbar {
 }
 
 .list ul li.active{
-    color: rgb(255, 230, 0);
+    color:#1e1e1e;
     transform: translateX(0%);
     list-style: none;
 }
@@ -413,21 +413,21 @@ body::-webkit-scrollbar {
 
 
 .list ul li a{
-    color: #E9E9E9;
+    color: #1e1e1e;
     text-decoration: none;
     transition: .2s ease-in-out;
 }
 
 
 .list ul li a.active{
-    color: rgb(255, 230, 0);
+    color:#1e1e1e;
     text-decoration: none;
     transition: .2s ease-in-out;
     list-style: square;
 }
 
 .list ul li a:hover{
-    color: rgb(255, 230, 0);
+    color:#1e1e1e;
     text-decoration: none;
 }
 
